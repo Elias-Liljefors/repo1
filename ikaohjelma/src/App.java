@@ -32,5 +32,9 @@ public class App {
         if (ika == 100) {
             System.out.println("Onneksi\n"+ "olkoon\n"+"vaan, 100-vuotias!"); } 
 
+         // Tasavuodet
+         if (ika < 100 && ika % 10 == 0) {
+            System.out.println("Onneksi olkoon täytit pyöreitä!"); }
+
     }
 }
