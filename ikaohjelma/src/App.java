@@ -24,5 +24,13 @@ public class App {
         else if (ika >= 58 && ika < 65) {
             System.out.println("Voit mennä varhaiseläkkeelle"); }
 
+         // Ikäryhmä 65-100
+         if (ika == 65) {
+            System.out.println("Hyviä eläpäiviä!"); }
+        if (ika > 65) {
+            System.out.println("Olet eläkeläinen"); }
+        if (ika == 100) {
+            System.out.println("Onneksi\n"+ "olkoon\n"+"vaan, 100-vuotias!"); } 
+
     }
 }
